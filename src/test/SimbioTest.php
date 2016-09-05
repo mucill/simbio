@@ -1,11 +1,10 @@
 <?php
-use PHPUnit\Framework\TestCase;
-use Simbio\Simbio;
+use \PHPUnit\Framework\TestCase;
 class SimbioTest extends TestCase
 {
     function setUp()
     {
-        $this->simbio = new Simbio;
+        $this->simbio = new Simbio\Simbio;
     }
 
     function testLoadConfig()
