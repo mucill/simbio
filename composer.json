@@ -1,0 +1,24 @@
+{
+    "name": "simbio/simbio3",
+    "description": "Simbio Framework",
+    "type": "library",
+    "require": {
+        "fzaninotto/faker": "^1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^5.5"
+    },
+    "license": "GPL 3",
+    "authors": [
+        {
+            "name": "Eddy Subratha",
+            "email": "eddy.subratha@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Simbio\\": "./src/simbio/simbio/"
+        }
+    },
+    "minimum-stability": "stable"
+}
