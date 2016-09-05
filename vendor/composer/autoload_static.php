@@ -18,6 +18,7 @@ class ComposerStaticInitb569664c23e489a0c86f78599e0e7eb2
         'S' => 
         array (
             'Symfony\\Component\\Yaml\\' => 23,
+            'Simbio\\Tests\\' => 13,
             'Simbio\\' => 7,
         ),
         'F' => 
@@ -45,6 +46,10 @@ class ComposerStaticInitb569664c23e489a0c86f78599e0e7eb2
         'Symfony\\Component\\Yaml\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/yaml',
+        ),
+        'Simbio\\Tests\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/tests',
         ),
         'Simbio\\' => 
         array (
@@ -1029,6 +1034,8 @@ class ComposerStaticInitb569664c23e489a0c86f78599e0e7eb2
         'SebastianBergmann\\ResourceOperations\\ResourceOperations' => __DIR__ . '/..' . '/sebastian/resource-operations/src/ResourceOperations.php',
         'SebastianBergmann\\Version' => __DIR__ . '/..' . '/sebastian/version/src/Version.php',
         'Simbio\\Simbio' => __DIR__ . '/../..' . '/src/simbio/simbio/Simbio.php',
+        'Simbio\\SimbioControllers' => __DIR__ . '/../..' . '/src/simbio/simbio/SimbioControllers.php',
+        'Simbio\\SimbioModels' => __DIR__ . '/../..' . '/src/simbio/simbio/SimbioModels.php',
         'Symfony\\Component\\Yaml\\Dumper' => __DIR__ . '/..' . '/symfony/yaml/Dumper.php',
         'Symfony\\Component\\Yaml\\Escaper' => __DIR__ . '/..' . '/symfony/yaml/Escaper.php',
         'Symfony\\Component\\Yaml\\Exception\\DumpException' => __DIR__ . '/..' . '/symfony/yaml/Exception/DumpException.php',

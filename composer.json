@@ -20,5 +20,9 @@
             "Simbio\\": "./src/simbio/simbio/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Simbio\\Tests\\": "tests/" }
+    },
     "minimum-stability": "stable"
 }

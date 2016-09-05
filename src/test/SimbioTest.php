@@ -1,26 +1,16 @@
 <?php
 use PHPUnit\Framework\TestCase;
 use Simbio\Simbio;
-/**
-* @return mixe
-*/
-class RouterTest extends TestCase
+class SimbioTest extends TestCase
 {
-    function testLoadSimbioClass()
+    function setUp()
     {
         $this->simbio = new Simbio;
     }
 
     function testLoadConfig()
     {
-        $this->simbio = new Simbio;
         $this->simbio->config();
-    }
-
-    function testLoadRoute()
-    {
-        $this->simbio = new Simbio;
-        $this->simbio->route();
     }
 
     function testModuleIsExist()

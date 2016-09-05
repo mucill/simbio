@@ -960,6 +960,8 @@ return array(
     'SebastianBergmann\\ResourceOperations\\ResourceOperations' => $vendorDir . '/sebastian/resource-operations/src/ResourceOperations.php',
     'SebastianBergmann\\Version' => $vendorDir . '/sebastian/version/src/Version.php',
     'Simbio\\Simbio' => $baseDir . '/src/simbio/simbio/Simbio.php',
+    'Simbio\\SimbioControllers' => $baseDir . '/src/simbio/simbio/SimbioControllers.php',
+    'Simbio\\SimbioModels' => $baseDir . '/src/simbio/simbio/SimbioModels.php',
     'Symfony\\Component\\Yaml\\Dumper' => $vendorDir . '/symfony/yaml/Dumper.php',
     'Symfony\\Component\\Yaml\\Escaper' => $vendorDir . '/symfony/yaml/Escaper.php',
     'Symfony\\Component\\Yaml\\Exception\\DumpException' => $vendorDir . '/symfony/yaml/Exception/DumpException.php',
