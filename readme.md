@@ -2,4 +2,6 @@
 <br>
 Simbio Framework
 ================
-Yet another PHP Framework for Slims
+Yet another PHP Framework for Slims. 
+<br>
+DO NOT USE IT. IT'S NOT READY YET.  
